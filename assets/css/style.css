@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px ;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: linear-gradient(160deg ,#444242b7, #76aef8cb);
+    height: 200vh;
+}
+.header {
+    background-color: rgb(121, 121, 228);
+}
+
+.h1{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.main{
+    width:60%;
+    margin: auto;
+    
+}
+
+.para{
+    margin-left: 20px;
+}
+
+
+
+main label{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+form input{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#submit{
+    margin-top: 30px;
+}
+
+
+.del{
+
+    background-color: rgb(45, 45, 230);
+    padding: 5px;
+    border-radius: 10px;
+}
+

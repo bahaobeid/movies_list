@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>movies action</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <h1 id="h1" class="h1"></h1>
+  </header>
+  <main class="main">
+    <p class="para" id="para">  </p>
+    <form id='form1'onsubmit="return false">
+
+      <label for="Movie">movie name :</label>
+      <input type="text" name="Movie" id="Movie" value="" required >
+
+      <label for="Date1">Date :</label>
+      <input type="date" name="Date1" id="Date1" value="" required>
+
+      <label for="Character">Main character :</label>
+      <input type="text" name="Character" id="Character" value="" required>
+
+      <input type="submit" value="submit" id="submit" onclick="tablefunc()">
+
+    </form>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Movie name</th>
+          <th scope="col">Date</th>
+          <th scope="col">Main_character</th>
+          <th scope="col"></th>
+
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+  </main>
+
+
+
+
+
+
+  <!-- java script src --> 
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
